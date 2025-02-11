@@ -1,0 +1,86 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+}
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 70px;
+}
+
+.first-baby{
+    background-color: red;
+}
+
+.second-baby{
+    background-color: blue;
+}
+
+.third-baby{
+    background-color: yellow;
+}
+
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    margin-bottom: 70px;
+}
+
+.baby-one{
+    
+    line-height: 30px;
+}
+
+.baby-two img{
+    object-fit: cover;
+    width: 500px;
+    height: 225px;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+#my-unique-id{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: beige;
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+#my-second-unique-id{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+#my-second-unique-id img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: gray;
+}
+.gridSix p{
+    font-family: "Mate", serif;
+}
